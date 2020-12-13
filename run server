@@ -1,0 +1,8 @@
+one terminal-
+cd ~/Downloads/contiki/examples/ipv6/rpl-border-router/
+make connect-router-cooja
+
+
+second terminal-
+cd ~/Downloads/contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src
+ sudo ./broker_mqtts config.mqtt
